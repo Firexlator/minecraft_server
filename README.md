@@ -5,6 +5,6 @@
 
 Open a terminal and run this command:
 ```bash
-wget -qO- https://raw.githubusercontent.com/Firexlator/minecraft_server/master/install | bash
+wget -qO- https://raw.githubusercontent.com/Firexlator/minecraft_server/main/install | bash
 ```
   
