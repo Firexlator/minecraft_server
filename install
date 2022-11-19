@@ -9,7 +9,7 @@ wget https://www.dropbox.com/s/m7hkxgn48eoqfuk/server.jar
 clear
 wget https://www.dropbox.com/s/c2iipmev6dqetvy/eula.txt
 clear
-wget https://www.dropbox.com/s/33u3o3ttn3rv61k/icon.png
+wget https://www.dropbox.com/s/33u3o3ttn3rv61k/logo.png
 clear
 wget https://www.dropbox.com/s/fdyogtz7lqvjqsk/start.sh
 clear
