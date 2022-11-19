@@ -16,7 +16,17 @@ clear
 wget https://www.dropbox.com/s/neno8tu0vxn57lx/startgui.sh
 clear
 cd ~/Desktop
-wget https://www.dropbox.com/s/5y41jcoerekyadz/Server
+mkdir -p ~/.local/share/applications
+echo "[Desktop Entry]
+Name=Server
+Comment=Start minecraft server
+Exec=~/.firexapps/mcserver/start.sh
+Icon=~/.firexapps/mcserver/logo.png
+Terminal=true
+Type=Application
+Categories=Game;
+StartupNotify=true" > ~/.local/share/applications/server.desktop
+cp -f ~/.local/share/applications/better-pi-apps.desktop ~/Desktop
 clear
 echo Download finished!
 
