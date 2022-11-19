@@ -1,4 +1,5 @@
 #!/bin/bash
+DIRECTORY="~/.firexlator/mcserver/
 echo Starting download of your minecraft server
 cd ~/
 mkdir .firexapps
@@ -20,13 +21,13 @@ mkdir -p ~/.local/share/applications
 echo "[Desktop Entry]
 Name=Server
 Comment=Start minecraft server
-Exec=~/.firexapps/mcserver/start.sh
-Icon=~/.firexapps/mcserver/logo.png
+Exec=${DIRECTORY}/start.sh
+Icon=${DIRECTORY}/logo.png
 Terminal=true
 Type=Application
 Categories=Game;
 StartupNotify=true" > ~/.local/share/applications/server.desktop
-cp -f ~/.local/share/applications/better-pi-apps.desktop ~/Desktop
+cp -f ~/.local/share/applications/server.desktop ~/Desktop
 clear
 echo Download finished!
 
